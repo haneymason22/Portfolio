@@ -152,7 +152,7 @@ body {
     margin: 0 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
-    height: 2000px;
+    height: 1800px;
   }
 
   .links-section {
@@ -170,8 +170,9 @@ body {
   .work {
     position: relative;
     float: left;
-    width: 274px;
+    width: 325px;
     margin: 20px 0 25px;
+    margin-left: 70px;
     overflow: auto;
   }
   
@@ -208,18 +209,48 @@ body {
   }
 
   #psych {
-    height: 250px;
-    width: 274px;
+    height: 275px;
+    width: 325px;
   }
 
   #crystal {
-    height: 250px;
-    width: 274px;
+    height: 275px;
+    width: 325px;
   }
 
   #trivia {
-    height: 250px;
-    width: 274px;
+    height: 275px;
+    width: 325px;
+  }
+
+  #gif {
+    height: 275px;
+    width: 325px;
+  }
+
+  #train {
+    height: 275px;
+    width: 325px;
+  }
+
+  #tourist {
+    height: 275px;
+    width: 325px;
+  }
+
+  #liri {
+    height: 275px;
+    width: 325px;
+  }
+
+  #bamazon {
+    height: 275px;
+    width: 325px;
+  }
+
+  #friendFinder {
+    height: 275px;
+    width: 325px;
   }
   
   /* contact page */
