@@ -3,7 +3,10 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/concrete_seamless.png");
+    background: url("../images/techCampus.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
   }
   
   * {
@@ -59,7 +62,7 @@ body {
     margin: 0 0 30px;
     overflow: auto;
     color: #ffffff;
-    background: #ffffff;
+    background: lightgoldenrodyellow;
     border-bottom: 2px solid #cccccc;
   }
   
@@ -75,6 +78,10 @@ body {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
+  }
+
+  #logo:hover {
+    color: beige;
   }
   
   nav {
@@ -95,6 +102,11 @@ body {
   nav a:first-child {
     border-left: 0 none;
   }
+
+  a:hover {
+    text-decoration: underline;
+    color: grey
+}
   
   /* footer */
   
@@ -123,6 +135,8 @@ body {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
   }
+
+  /* portfolio page */
 
   .introduction-section {
     float: left;
@@ -164,8 +178,6 @@ body {
     background: #ffffff;
     border: 1px solid #dddddd;
   }
-  
-  /* portfolio page */
   
   .work {
     position: relative;
@@ -267,8 +279,29 @@ body {
     height: 275px;
     width: 325px;
   }
+
+  /* about page */
+  .about-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
   
   /* contact page */
+
+  .contact_section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;;
+  }
   
   #contact-form ul {
     margin-bottom: 20px;
