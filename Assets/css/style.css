@@ -280,6 +280,11 @@ body {
     width: 325px;
   }
 
+  #my_menu_app {
+    height: 275px;
+    width: 325px;
+  }
+
   /* about page */
   .about-section {
     float: left;
